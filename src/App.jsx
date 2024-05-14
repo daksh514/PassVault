@@ -5,18 +5,20 @@ import Demo from "./components/Demo"
 import Privacy from "./components/Privacy"
 import Pricing from "./components/Pricing"
 import FAQ from "./components/FAQ"
+import Footer from "./components/Footer"
 
 function App() {
 
   return (
     <BrowserRouter>
-    <div className="h-[1000vh] overflow-hidden bg-[#f7fbff]">
+    <div className=" overflow-hidden bg-[#f7fbff]">
       <Header/>
       <WhyPassVault/>
       <Demo/>
       <Privacy/>
       <Pricing/>
       <FAQ/>
+      <Footer/>
     </div>
     </BrowserRouter>
   )

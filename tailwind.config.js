@@ -41,7 +41,9 @@ export default {
       'sMD': '580px'
     }
   },
-  plugins: [],
+  plugins: [
+    // require('daisyui')
+  ],
 }
 
 // module.exports = {
