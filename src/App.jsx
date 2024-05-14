@@ -4,6 +4,7 @@ import WhyPassVault from "./components/WhyPassVault"
 import Demo from "./components/Demo"
 import Privacy from "./components/Privacy"
 import Pricing from "./components/Pricing"
+import FAQ from "./components/FAQ"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Demo/>
       <Privacy/>
       <Pricing/>
+      <FAQ/>
     </div>
     </BrowserRouter>
   )
