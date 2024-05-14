@@ -58,4 +58,8 @@ h1 {
     .whyCard h1{
         @apply text-center w-2/3
     }
+
+    .pricingCard{
+        @apply bg-white grow flex flex-col items-start  px-5 py-7 rounded-md gap-3 max-w-[615px] max-lg:min-w-[515px] max-sm:min-w-0 mx-auto max-sm:w-full
+    }
 }
