@@ -15,7 +15,7 @@ function NavBar() {
                     <ul className='md:flex justify-between '>
                         {/* <li className="1"><a href="#" className='navLink'>Why PassVault</a></li> */}
                         <li className="2"><ScrLink to="demoSec" duration={600} smooth className='navLink' offset={-10}>Demo</ScrLink></li>
-                        <li className="3"><ScrLink to="demoSec" duration={600} smooth className='navLink' offset={-10}>Privacy</ScrLink></li>
+                        <li className="3"><ScrLink to="privacySec" duration={600} smooth className='navLink' offset={-10}>Privacy</ScrLink></li>
                         <li className="4"><ScrLink to="demoSec" duration={600} smooth className='navLink' offset={-10}>Pricing</ScrLink></li>
                         <li className="4"><ScrLink to="demoSec" duration={600} smooth className='navLink' offset={-10}>FAQ</ScrLink></li>
                     </ul>
@@ -37,7 +37,7 @@ function NavBar() {
                     <div className='nav_links  bg-blak flex items-center flex-col'>
                     <ul className=' '>
                     <li className="2 text-center mt-3"><ScrLink to="demoSec" duration={600} smooth className='navMobile' onClick={()=>{if(navOpen){setNavOpen(false)}}} offset={-10}>Demo</ScrLink></li>
-                        <li className="3 text-center mt-3"><ScrLink to="demoSec" duration={600} smooth className='navMobile' onClick={()=>{if(navOpen){setNavOpen(false)}}} offset={-10}>Privacy</ScrLink></li>
+                        <li className="3 text-center mt-3"><ScrLink to="privacySec" duration={600} smooth className='navMobile' onClick={()=>{if(navOpen){setNavOpen(false)}}} offset={-10}>Privacy</ScrLink></li>
                         <li className="4 text-center mt-3"><ScrLink to="demoSec" duration={600} smooth className='navMobile' onClick={()=>{if(navOpen){setNavOpen(false)}}} offset={-10}>Pricing</ScrLink></li>
                         <li className="4 text-center mt-3"><ScrLink to="demoSec" duration={600} smooth className='navMobile' onClick={()=>{if(navOpen){setNavOpen(false)}}} offset={-10}>FAQ</ScrLink></li>
                     </ul>
