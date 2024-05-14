@@ -1,0 +1,61 @@
+/* Fonts to use in the app */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+a{
+    font-family: "Montserrat", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
+    font-weight: 500;
+}
+
+.navLink{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight:600;
+    cursor: pointer;
+}
+
+.navLink:hover{
+    text-decoration: underline;
+
+}
+
+.navMobile{
+    font-size: 1rem/* 16px */;
+    line-height: 1.5rem/* 24px */;
+    font-weight:600;
+    cursor: pointer;
+
+}
+
+.navMobile:hover{
+    text-decoration: underline;
+
+}
+h1 {
+    /* font-family: "Roboto", sans-serif; */
+    /* font-family: "Open Sans", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+    /* font-family: "Gabarito", sans-serif;  */
+    font-weight: bold;
+}
+
+@layer base{
+    .mainHeading {
+        @apply text-5xl max-lg:text-center max-lg:text-4xl max-sm:text-3xl max-vsm:text-2xl
+    }
+
+    .whyCard{
+        @apply w-1/5 min-w-[250px] h-60 bg-red-100 flex flex-col items-center justify-center rounded-lg max-[580px]:w-96
+    }
+    .whyCard h1{
+        @apply text-center w-2/3
+    }
+}
